@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="css/apple.css">
+    <title>العوده</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="photo/logo-removebg-preview.png">
+        <div class="de">
+
+            <a href="home.html">الاساسي</a>
+            <a href="go.html">الذهاب</a>
+
+            <a href="sam.html">التواصل</a>
+        </div>
+    </header>
+    <section>
+        <div class="card">
+            <!-- iphone -->
+            <img class="phone" src="photo/xiaomi.jpeg">
+            <h1 class="x">العوده</h1>
+            <div class="card1">
+                <p>
+                <h1>1:30 :ميعاد</h1>
+                </p>
+                <div class="wrapper">
+                    <span class="minus">-</span>
+                    <span class="num">01</span>
+                    <span class="plus">+</span>
+                </div>
+                <script>
+                    const plus = document.querySelector(".plus"),
+                        minus = document.querySelector(".minus"),
+                        num = document.querySelector(".num");
+                    let a = 1;
+                    plus.addEventListener("click", () => {
+                        a++;
+                        a = (a < 10) ? "0" + a : a;
+                        num.innerText = a;
+                    });
+
+                    minus.addEventListener("click", () => {
+                        if (a > 1) {
+                            a--;
+                            a = (a < 10) ? "0" + a : a;
+                            num.innerText = a;
+                        }
+                    });
+
+                </script>
+            </div>
+            <div class="card1">
+                <p>
+                <h1>2:30 :ميعاد</h1>
+                </p>
+                <div class="wrapper">
+                    <span class="minus1">-</span>
+                    <span class="num1">01</span>
+                    <span class="plus1">+</span>
+                </div>
+                <script>
+                    const plus1 = document.querySelector(".plus1"),
+                        minus1 = document.querySelector(".minus1"),
+                        num1 = document.querySelector(".num1");
+                    let aa = 1;
+                    plus1.addEventListener("click", () => {
+                        aa++;
+                        aa = (aa < 10) ? "0" + aa : aa;
+                        num1.innerText = aa;
+                    });
+
+                    minus1.addEventListener("click", () => {
+                        if (aa > 1) {
+                            aa--;
+                            aa = (aa < 10) ? "0" + aa : aa;
+                            num1.innerText = aa;
+                        }
+                    });
+
+                </script>
+                <br>
+            </div>
+            <div class="card1">
+                <p>
+                <h1>3:30 :ميعاد</h1>
+                </p>
+                <div class="wrapper">
+                    <span class="minus2">-</span>
+                    <span class="num2">01</span>
+                    <span class="plus2">+</span>
+                </div>
+                <script>
+                    const plus2 = document.querySelector(".plus2"),
+                        minus2 = document.querySelector(".minus2"),
+                        num2 = document.querySelector(".num2");
+                    let aaa = 1;
+                    plus2.addEventListener("click", () => {
+                        aaa++;
+                        aaa = (aaa < 10) ? "0" + aaa : aaa;
+                        num2.innerText = aaa;
+                    });
+
+                    minus2.addEventListener("click", () => {
+                        if (aaa > 1) {
+                            aaa--;
+                            aaa = (aaa < 10) ? "0" + aaa : aaa;
+                            num2.innerText = aaa;
+                        }
+                    });
+
+                </script>
+                <br>
+            </div>
+            <div class="card1">
+                <p>
+                <h1>4:30 :ميعاد</h1>
+                </p>
+                <div class="wrapper">
+                    <span class="minus3">-</span>
+                    <span class="num3">01</span>
+                    <span class="plus3">+</span>
+                </div>
+                <script>
+                    const plus3 = document.querySelector(".plus3"),
+                        minus3 = document.querySelector(".minus3"),
+                        num3 = document.querySelector(".num3");
+                    let q = 1;
+                    plus3.addEventListener("click", () => {
+                        q++;
+                        q = (q < 10) ? "0" + q : q;
+                        num3.innerText = q;
+                    });
+
+                    minus3.addEventListener("click", () => {
+                        if (q > 1) {
+                            q--;
+                            q = (q < 10) ? "0" + q : q;
+                            num3.innerText = q;
+                        }
+                    });
+
+                </script>
+            </div>
+            <div class="card1">
+                <p>
+                <h1>5:30 :ميعاد</h1>
+                </p>
+                <div class="wrapper">
+                    <span class="minus4">-</span>
+                    <span class="num4">01</span>
+                    <span class="plus4">+</span>
+                </div>
+                <script>
+                    const plus4 = document.querySelector(".plus4"),
+                        minus4 = document.querySelector(".minus4"),
+                        num4 = document.querySelector(".num4");
+                    let qq = 1;
+                    plus4.addEventListener("click", () => {
+                        qq++;
+                        qq = (qq< 10) ? "0" + qq : qq;
+                        num4.innerText = qq;
+                    });
+
+                    minus4.addEventListener("click", () => {
+                        if (qq > 1) {
+                            qq--;
+                            qq = (qq < 10) ? "0" + qq : qq;
+                            num3.innerText = qq;
+                        }
+                    });
+
+                </script>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

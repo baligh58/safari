@@ -1,0 +1,114 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+ * {
+     font-family: 'Poppins', sans-serif;
+     scroll-behavior: smooth;
+     box-sizing: border-box;
+     padding: 0;
+     margin: 0;
+     text-decoration: none;
+     list-style: none;
+ }
+
+ header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 100%;
+     height: 100px;
+     background-color: rgb(218, 218, 210);
+ }
+ .ss {
+  padding-right: 20px;
+  color: rgb(18, 132, 152);
+ }
+
+ .logo {
+     width: 100px;
+     height: 100px;
+
+ }
+
+ body {
+     background-color: rgb(228, 228, 223);
+ }
+
+ .social {
+     padding-right: 1.4em;
+     font-size: 35px;
+ }
+
+ .social a {
+     color: black;
+     transition: 0.7s ease;
+ }
+
+ .social a:hover {
+     color: rgb(44, 51, 58);
+     font-size: 37px;
+ }
+
+ section {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+flex-direction: row;
+ }
+ 
+
+ .card {
+
+     display: inline-block;
+     background-color: white;
+     width: 20em;
+     margin: 150px auto ;
+     box-shadow: 0px 5px 30px rgba(1, 1, 1, 20%);
+     border-radius: 15px;
+     padding: 25px;
+     transition: 0.7s ease;
+
+ }
+.card:hover{
+    transform: scale(1.1);
+}
+ section .card .phone {
+     width: 100%;
+     height: 200px;
+ }
+
+ section .card .phone h1 {
+    padding: 40px;
+     display: flex;
+     justify-content: center;
+ }
+ footer {
+     display: flex;
+     justify-content: space-between;
+     width: 95%;
+     margin: auto;
+ }
+ .social1{
+     font-size: 1.4em;
+     transition: 1s ease;
+     margin-bottom: 15px;
+ }
+.qq1{
+    font-size: 1.3em;
+    color: blue;
+    user-select: none;
+}
+.qq2 {
+    font-size: 1.3em;
+    color: blue(237, 165, 30);
+    user-select: none;
+}
+
+
+
+ .icon {
+     color: #1a87fc;
+     font-size: 8em;
+     text-align: center;
+ }
+ 
+
